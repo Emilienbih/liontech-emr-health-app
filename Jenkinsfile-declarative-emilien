@@ -19,7 +19,7 @@ pipeline{
             steps{
 
                 sh "echo 'running sonarqube code quality analysis'"
-                sh "echo 'emilien devop engineer develop pipeline'"
+                sh "echo 'emilien devop engineer develop pipeline project'"
                 sh "echo 'testing must passed inorder to package application'"
                 sh "mvn install"
                 sh "mvn validate"
